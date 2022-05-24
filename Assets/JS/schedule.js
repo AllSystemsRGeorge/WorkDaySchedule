@@ -3,8 +3,7 @@ $('#date').text(currentDate);
 
 console.log(date)
 
-$(function () {
+$(function() {
     $("#selectable").selectable();
+    console.log(selectable);
 });
-
-console.log(select)
