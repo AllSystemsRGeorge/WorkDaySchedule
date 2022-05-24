@@ -24,3 +24,7 @@
     font-size: 1.4em;
     height: 18px;
 }
+
+#border {
+    border-bottom: solid black;
+}
