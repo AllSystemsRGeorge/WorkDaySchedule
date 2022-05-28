@@ -2,11 +2,11 @@
     font-size: 1.4em;
 }
 
-#selectable.ui-selecting {
+#selectable .ui-selecting {
     background: #FECA40;
 }
 
-#selectable.ui-selected {
+#selectable .ui-selected {
     background: #F39814;
     color: white;
 }
@@ -23,6 +23,12 @@
     padding: 0.4em;
     font-size: 1.4em;
     height: 18px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #border {
