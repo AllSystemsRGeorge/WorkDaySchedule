@@ -66,5 +66,17 @@ h1 {
 }
 
 .time {
+    display: flex;
+    justify-content: column;
     float: left;
+    border: solid;
+    border-color: rgb(156, 156, 156);
+    border-top-width: thin;
+    border-right-width: thin;
+    border-bottom-width: thin;
+    border-left: none;
+    padding-top: 20px;
+    padding-right: 25px
+    
+
 }
