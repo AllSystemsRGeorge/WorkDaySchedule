@@ -1,7 +1,7 @@
 var currentDate = moment().format('dddd, MMMM Do');
 $('#date').text(currentDate);
 
-console.log(date);
+console.log(date); 
 
 $(function() {
     $("#selectable").selectable();
