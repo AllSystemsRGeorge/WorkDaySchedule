@@ -49,8 +49,22 @@ h1 {
     background-color: rgb(0, 155, 252);
     color: white;
     float: right;
-    font-size: 75px;
+    font-size: 74px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 0px 10px 10px 0px;
+}
+
+.fa:hover{
+    background-color: rgb(0, 155, 252);
+    color: black;
+}
+
+.fa-selected {
+    background-color: rgb(0, 155, 252);
+    color: white;
+}
+
+.time {
+    float: left;
 }
