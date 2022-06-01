@@ -10,4 +10,10 @@ $('#selectable').backgroundColor;
 function setColor(element, color) {
   element.style.backgroundColor = color;
 }
+
+function changeBackground(color) {
+  $('li').style.background = color;
+}
+
+window.addEventListener("load",function() { changeBackground('red') });
  
