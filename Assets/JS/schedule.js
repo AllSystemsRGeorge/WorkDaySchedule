@@ -3,7 +3,11 @@ $('#date').text(currentDate);
 
 console.log(date); 
 
-$(function() {
-    $("#selectable").selectable();
-    console.log(selectable);
-});
+const rows = document.querySelectorAll('li');
+let currentHour = moment().format('H');
+$('#selectable').backgroundColor;
+
+function setColor(element, color) {
+  element.style.backgroundColor = color;
+}
+ 
