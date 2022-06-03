@@ -1,19 +1,57 @@
+// The function for the current date
 var currentDate = moment().format('dddd, MMMM Do');
 $('#date').text(currentDate);
 
-console.log(date); 
+console.log(date);
 
-const rows = document.querySelectorAll('li');
-let currentHour = moment().format('H');
-$('#selectable').backgroundColor;
+// The function for the current time
+var currentHour = moment().format('H');
 
-function setColor(element, color) {
-  element.style.backgroundColor = color;
-}
+console.log(currentHour);
 
-function changeBackground(color) {
-  $('li').style.background = color;
-}
+// var backgroundColor = $('li').backgroundColor
 
-window.addEventListener("load",function() { changeBackground('red') });
- 
+listItems = $("#selectable").find("li").each(function(){
+  var product = $(this);
+  console.log(product);
+});
+
+
+// function changeBackground(color) {
+//   var listItems = $("#selectable li");
+//   listItems.each(function (idx, li) {
+//     var product = $(li);
+//     console.log(product.style.backgroundColor);
+//   });
+// };
+
+// const rows = document.getElementById("#selectable");
+// let currentHour = parseInt(moment().format('H'));
+
+// Array.from(rows).forEach(row => {
+//   console.log(row);
+//   let
+//     rowIdString = row.id,
+//     rowHour;
+//   if (rowIdString) {
+//     rowHour = parseInt(rowIdString);
+//   }
+//   if (rowHour) {
+//     // Compares row id to current hour and sets color accordingly
+//     if (currentHour === rowHour) {
+//       setColor(row, "red");
+//     } else if ((currentHour < rowHour) && (currentHour > rowHour - 6)) {
+//       setColor(row, "green");
+//     } else if ((currentHour > rowHour) && (currentHour < rowHour + 6)) {
+//       setColor(row, "lightgrey");
+//     } else {
+//       setColor(row, "white");
+//     }
+//   }
+// });
+
+// function setColor(element, color) {
+//   element.style.backgroundColor = color;
+// }
+
+
