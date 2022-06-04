@@ -6,7 +6,8 @@ $('#date').text(currentDate);
 var currentHour = moment().format('h');
 // $('.time').text(currentHour);
 
-
+var tasks = $('input');
+var lockBtn = $('button');
 
 var listItems = $("#selectable").find("li");
 var i, len, item;
@@ -35,11 +36,10 @@ for (i = 0, len = listItems.length; i < len; i++) {
   }
 };
 
-var tasks = $('input');
-var lockBtn = $('.fa fa-lock');
 
-lockBtn.addEventListener("click", function(event) {
-  event.preventDefault();
+lockBtn.addEventListener('click', function(tasks) {
+  console.log();
+  tasks.preventDefault();
   
   var dailyTasks = {
     tasks: tasks.value.trim()

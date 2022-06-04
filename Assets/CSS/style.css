@@ -19,7 +19,6 @@
     height: 18px;
     display: flex;
     justify-content: center;
-    /* background-color: grey; */
 }
 
 header {
@@ -46,6 +45,7 @@ input {
     border-style: none;
     flex-direction: column;
     align-items: center;
+    border: transparent;
 }
 
 .fa {
