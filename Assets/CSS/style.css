@@ -51,10 +51,10 @@ input {
 .fa {
     background-color: rgb(0, 155, 252);
     color: white;
+    display: right;
     float: right;
-    font-size: 74px;
-    padding-left: 10px;
-    padding-right: 10px;
+    justify-content: column;
+    font-size: 70px;
     border-radius: 0px 10px 10px 0px;
 }
 

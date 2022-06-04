@@ -35,3 +35,15 @@ for (i = 0, len = listItems.length; i < len; i++) {
   }
 };
 
+var tasks = $('input');
+var lockBtn = $('.fa fa-lock');
+
+lockBtn.addEventListener("click", function(event) {
+  event.preventDefault();
+  
+  var dailyTasks = {
+    tasks: tasks.value.trim()
+  };
+  
+  localStorage.setItem('dailyTasks', JSON.stringify(dailyTasks));
+ });
